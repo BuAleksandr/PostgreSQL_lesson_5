@@ -1,0 +1,55 @@
+insert into public.executor
+values(1, 'Alex');
+values(2, 'Ben');
+values(3, 'Carl');
+values(4, 'Dan');
+values(5, 'Genry');
+values(6, 'Jon');
+values(7, 'Lee_Roy');
+values(8, 'John_Weak');
+
+insert into public.genre
+values(1, 'pop');
+values(2, 'rock');
+values(3, 'metal');
+values(4, 'blues');
+values(5, 'hip-hop');
+
+insert into public.album
+values(1, 'first', 2002);
+values(2, 'second', 2004);
+values(3, 'third', 2004);
+values(4, 'fourth', 2010);
+values(5, 'fifth', 2014);
+values(6, 'sixth', 2018);
+values(7, 'seventh', 2018);
+values(8, 'eighth', 2020);
+
+insert into public.track
+values(1, 'one', 1, 180);
+values(2, 'two', 2, 175);
+values(3, 'three', 3, 160);
+values(4, 'four', 4, 170);
+values(5, 'five', 5, 189);
+values(6, 'six', 6, 199);
+values(7, 'seven', 7, 178);
+values(8, 'eight', 8, 188);
+values(9, 'nine', 3, 191);
+values(10, 'ten', 5, 187);
+values(11, 'eleven', 7, 179);
+values(12, 'twelve', 8, 176);
+values(13, 'thirteen', 1, 183);
+values(14, 'fourteen', 2, 178);
+values(15, 'fifteen', 5, 194);
+values(16, 'guns', 3, 250);
+values(18, 'my guns', 5, 200);
+
+insert into public.collection
+values(1, 'a', 1999);
+values(2, 'b', 2008);
+values(3, 'c', 2001);
+values(4, 'd', 2018);
+values(5, 'f', 2020);
+values(6, 'g', 2015);
+values(7, 'h', 2001);
+values(8, 'i', 2021);
